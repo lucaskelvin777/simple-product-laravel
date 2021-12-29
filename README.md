@@ -39,7 +39,7 @@ Você deve ter o docker instalado no seu computador para poder executar esse pro
     Mac/Linux: cp .env.example .env
     Windows (Shell): copy .env.example .env
     
-   E devemos editar o .env, com o nosso editor de textos favorito.
+   ##### E devemos editar o .env, com o nosso editor de textos favorito.
    ![.env configuração](https://lh3.googleusercontent.com/61vfjvxlrPGGkMmAXEEtAExM49m9TJEVnCA4GJYDyqZNKIPs6F7i2RoZE0bGJZeiIa-_Mm-YCD70MKh2RCFJ14kjbFBgZIVYUquHl7Fcc6Odm0Vrmg60zUer_p7PSsfTUy2tIuXeSK5iKFNtO8EbmkscFdFp17LT9gPyyG3X7uq4xrLmEJuKL60B159qz1IDOzrAvd3qObzJPqMV1PV0Q_xDsseENw3asvcyKMyeXrN1cqLUKQnuT5Gvgw80oCi8KxQtDfiqlZl6An2f9zkHZK-N0WyE7wZOkkYcGUJ1ZwxfpJVSJy6RSWndM595JfMqEubrITRbsf-cGlPTGsCimQLB7odfBawVugBPRJ-JseSpDwvB3vvf0VP-ar1A2_Xaq0GS7znVRQpLYj8j29H9SeaQW2Wb9jhi-j2i6nTqr7ay7L3xa2aQqgeEbRXI77A7CZvSj-ilsLsUmCw25Zp-gMhhvvmfB8OjndMnv1ULuJlD7aw39sIdgsutji3UGBtIWbgVeiYSfvUQkjQmTHs7w7noc4TMLhbkp5AyOmdxBsh-8r-EUu027a9Z-AXoAL7Wt0nvAIpQplFa95q0EromGDPtXhSVwwCd7W8IrRQjWAkXXOuML74OATdYf9P7pDIKR8fXuul4A5F9ba47uHCDR0OitcqOXAppP0d_Z265mPBruL1hInUBq3Gmt_IoDciOzYpJ-adpqdkWTyNskOM0O4I=w273-h102-no?authuser=4)
    
    
@@ -51,7 +51,12 @@ Você deve ter o docker instalado no seu computador para poder executar esse pro
     
     docker-compose exec workspace bash
     
+    composer install
+    
     php artisan migrate
+    
+    php artisan key:generate
+    
   Lembrando que a porta pode variar, de acordo com a configuração realizada no arquivo .env do laradock.
     
     E acesse no seu navegador: http://localhost:80
