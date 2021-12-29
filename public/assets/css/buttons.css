@@ -1,0 +1,35 @@
+/* Cores dos buttons, substituindo os originais do bootstrap */
+/* Btn primary */
+.btn.btn-primary {
+    background-color: #6C4FBB;
+    border-color: #6C4FBB;
+    box-shadow: #6C4FBB;
+}
+.btn.btn-primary:hover{
+    background-color: #5a439b;
+    border-color: #5a439b;
+    box-shadow: #5a439b;
+}
+.btn.btn-primary:focus {
+    background-color: #5a439b;
+    border-color: #6C4FBB;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(110, 81, 190);
+}
+
+/* Btn secondary */
+.btn.btn-secondary {
+    background-color: #eee;
+    border-color: #eee;
+    box-shadow: #eee;
+    color: #202020;
+}
+.btn.btn-secondary:hover{
+    background-color: rgb(197, 196, 196);
+    border-color: #eee;
+    box-shadow: #eee;
+}
+.btn.btn-secondary:focus {
+    background-color: #eee;
+    border-color: #eee;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(221, 221, 221);
+}

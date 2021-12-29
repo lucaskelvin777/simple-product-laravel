@@ -1,0 +1,64 @@
+/* Define os estilos das classes utilizadas pelo modal de recorte */
+.modalContainer {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer.showModal {
+    display: flex;
+}
+
+.modalItemsViewer {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.img-preview-card {
+    width: 260px;
+    margin-bottom: 26px;
+}
+
+.buttons-actions-modal {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+
+.bg-gradient-terc {
+    background-color: #fff;
+}
+
+.modal-info .modal-content {
+    background-color: #fff !important;
+}
+
+.img-preview-card {
+    width: 260px;
+    margin-bottom: 26px;
+}
+.overflow-auto {
+    overflow: auto;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
