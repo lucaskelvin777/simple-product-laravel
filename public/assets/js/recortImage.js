@@ -76,12 +76,12 @@ const recortImage = () => {
         if (!submitedImage)
             $('#image').val('');
         submitedImage = false;
-        $('body').addClass('overflow-hidden');
+        $('body').removeClass('overflow-hidden');
     }
     // Mostrar os itens e o próprio modal.
     const showItemsModal = () => {
         $('#modalRecortImage').addClass('showModal');
-        $('body').removeClass('overflow-hidden');
+        $('body').addClass('overflow-hidden');
     }
 
     // Atualiza os inputs responsáveis por armazenar os valores das coordenadas gerados pelo jcrop.
