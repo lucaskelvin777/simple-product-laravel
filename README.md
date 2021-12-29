@@ -5,9 +5,9 @@
 ## Docker
 
 Você deve ter o docker instalado no seu computador para poder executar esse projeto.
-Instalando docker no ubuntu: https://www.hostinger.com.br/tutoriais/install-docker-ubuntu
-Instalando docker no windows 10:  http://marceloti.pe.hu/trabalhando-com-docker-e-container-no-windows-10/
-Instalando no macOS: https://docs.docker.com/desktop/mac/install/
+#### Instalando docker no ubuntu: https://www.hostinger.com.br/tutoriais/install-docker-ubuntu
+#### Instalando docker no windows 10:  http://marceloti.pe.hu/trabalhando-com-docker-e-container-no-windows-10/
+#### Instalando no macOS: https://docs.docker.com/desktop/mac/install/
 
 ## Instalando o projeto
 
